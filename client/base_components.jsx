@@ -56,6 +56,7 @@ AddNewPost = React.createClass({
     </div>;
   },
   render() {
+    console.log("RENDER ADD NEW POST");
     return <div>
       {this.data.authInProcess?  <p>Loading...</p> : this.getContent()}
     </div>;
